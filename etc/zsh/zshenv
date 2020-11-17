@@ -1,6 +1,8 @@
-# Enable custom zdotdir
+# Enable custom zdotdir.
 ZDOTDIR=$HOME/.config/zsh
 
+# Specify va-api driver.
 export LIBVA_DRIVER_NAME=iHD
 
+# Override gstreamer whitlelist.
 export GST_VAAPI_ALL_DRIVERS=1
