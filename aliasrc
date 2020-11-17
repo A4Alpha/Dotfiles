@@ -1,0 +1,6 @@
+alias pac-force='sudo pacman -Syyu'
+
+alias ls='ls --color=auto'
+
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias shush-grub='sudo sed -i 's/echo/#ech~o/g' /boot/grub/grub.cfg'
