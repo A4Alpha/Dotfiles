@@ -1,3 +1,4 @@
+# Enable custom 
 ZDOTDIR=$HOME/.config/zsh
 
 export LIBVA_DRIVER_NAME=iHD
