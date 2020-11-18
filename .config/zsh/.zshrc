@@ -25,7 +25,7 @@ fi
 # History in custom directory.
 HISTSIZE=10000
 SAVEHIST=10000
-HISTFILE=$XDG_DATA_HOME/zshhistory
+HISTFILE=$XDG_DATA_HOME/zsh/history
 setopt appendhistory
 
 # Basic auto/tab complete.
