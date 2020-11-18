@@ -9,4 +9,4 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 # History in custom directory:
-export HISTFILE=$HOME/.config/bash/history
+export HISTFILE=$XDG_DATA_HOME/bash/history
