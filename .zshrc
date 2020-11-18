@@ -15,14 +15,14 @@ EDITOR=nano
 # History in custom directory.
 HISTSIZE=10000
 SAVEHIST=10000
-HISTFILE=~/.config/zshhistory
+HISTFILE=$HOME/.config/zshhistory
 setopt appendhistory
 
 # Basic auto/tab complete.
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
-compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
+compinit -d $HOME/.cache/zsh/zcompdump-$ZSH_VERSION
 _comp_options+=(globdots)               # Include hidden files.
 
 # Load aliases and shortcuts.
