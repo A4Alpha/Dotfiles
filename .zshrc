@@ -12,6 +12,11 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 # Custom Variables.
 EDITOR=nano
 
+# Create a zsh cache folder if it doesn't exists.
+if [ ! -d "$HOME/.cache/zsh" ]; then
+    mkdir -p $HOME/.cache/zsh
+fi
+
 # History in custom directory.
 HISTSIZE=10000
 SAVEHIST=10000
